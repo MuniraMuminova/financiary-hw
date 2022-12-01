@@ -1,0 +1,135 @@
+@import url('all.min.css');
+@media(max-width: 414px){
+    .header_nav{
+        background: #252B42;
+        flex-direction: column;
+        width: 100%;
+       
+}
+.header_nav_list{
+    display: grid;
+    grid-template-columns: span 2 ;
+    margin: 0 auto;
+
+}
+
+.header_card{
+    
+    grid-column: span 2 ;
+   
+}
+.header_cards{
+   
+   position: relative;
+  bottom: 80px;
+
+   
+    
+    
+}
+.header_content_title{
+    font-weight: 700;
+font-size: 40px;
+line-height: 57px;
+text-align: center;
+}
+.header_content{
+    padding-top: 80px;
+    gap: 40px;
+
+}
+.header_content_subtitle{
+    text-align: center;
+    max-width: 278px;
+    margin: 0  auto;
+    padding-bottom: 40px;
+}
+.header_content_buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.main{
+    padding-top: 75px;
+}
+.section_title{
+    max-width: 330px;
+    /* padding: 75px 0 10px 0; */
+}
+.section_text{
+    max-width: 305px;
+}
+.strategy_cards{
+    margin-top: 45px;
+    grid-template-columns: 1fr;
+
+}
+.clients_items{
+grid-template-columns: 1fr;
+
+}
+.clients_item{
+    flex-direction: column;
+    max-width: 332px;
+}
+.clients_item_img{
+    /* width: 100%; */
+    /* background-size: cover; */
+}
+.clients_item_about{
+    padding: 40px 30px;
+}
+.faq_items{
+    grid-template-columns: 1fr;
+    /* grid-template-rows: repeat(3, 1fr);
+} */}
+.pricing_items{
+    flex-direction: column;
+
+}
+.branches_top{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+ 
+}
+.branches_card{
+    flex-direction: column;
+}
+.blanches_card-img{
+    width: 411px;
+    height: 259px;
+width: 100%;
+background-size: cover;
+object-fit: cover;
+  
+}
+.branches_card{
+    max-width: 414px;
+    width: 100%;
+    bottom: 37%;
+}
+.branches_card_link{
+    padding: 15px 40px ;
+}
+.branches_card_info{
+    padding: 45px 0px;
+    max-width: 414px;
+    width: 100%;
+}
+.branches_top{
+    padding-bottom: 40px;
+}
+}
+    /* @media(max-width: 1200px){
+
+    } */
+    @media(max-width: 991px){
+        .header_nav{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+
+    }

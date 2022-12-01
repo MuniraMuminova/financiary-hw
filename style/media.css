@@ -1,0 +1,283 @@
+@import url(fonts.css);
+@media (max-width: 1400px) {}
+
+
+@media(max-width: 1200px){
+    .header_cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: -300px;
+     }
+     .section_title{
+        margin-top: 50px;
+     }
+     .strategy_cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .clients_items{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    } 
+    .clients_item{
+        max-width: 800px;
+        margin: 0 auto ;
+    }
+    .faq_items{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .faq_items{
+        padding: 50px 0 80px ;
+    }
+    .footer_top .container{
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer_list{
+      padding-bottom: 30px;
+      padding-left: 60px;
+
+    }
+    .footer_lists{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
+    }
+    .footer_bottom .container{
+        display: flex;
+        justify-content: space-around;
+    }
+    .strategy_card{
+        margin: 0 auto;
+    }
+   
+    
+    .faq_item{
+        margin: 0 auto;
+    }
+  
+ }
+
+@media(max-width: 991px){
+    .container{
+        max-width: 991px;
+        width: 100%;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+    .header_nav{
+        
+        flex-direction: column;
+    }
+    .header_cards{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+    .header_nav_list{
+       margin: 0 auto;
+    }
+    .header_content {
+        padding: 70px 0 120px 50px;}
+    .header_nav_list {
+         padding-top: 20px;}
+    .clients_items {
+            margin-top: 70px;}
+    .pricing_items{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .branches_top{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 70px;
+        margin: 0 0 40px;
+    }
+    .branches_form_btn {
+        width: 400px;
+    }
+    .branches_card_link {
+        padding: 15px 110px;
+    }
+    .footer_middle .container{
+        padding: 50px 0 0 20px;
+        }
+        .clients{
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+        /* .branches_top{
+            bottom: -30%;
+        } */
+        .footer_lists{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        .footer_list{
+            padding-left: 40px;
+        }
+        .header_nav_logo{
+            font-size: 38px;
+        }
+    }
+    
+
+    @media(max-width: 768px){
+     .branches_card{
+        max-width: 768px;
+
+        }
+        .branches_form_btn{
+            max-width: 220px;
+        }
+        .branches_card_link {
+            padding: 15px 40px;
+            font-size: 13px;
+        }
+        .footer_top_btn{
+            padding: 15px 30px;
+
+        }
+        .footer_top .container{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .footer_top_logo{
+            display: flex;
+            align-items: center;
+        }
+        .footer_lists{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .footer_bottom .container{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+       
+        .header_nav_logo{
+            font-size: 38px;
+        }
+        .clients_item {
+            max-width: 675px;
+        }
+        .pricing_item {
+            padding: 40px 35px;
+        }
+    }
+    @media(max-width: 576px){
+        .header_nav{
+            background: #252B42;
+            margin: 0 -15px;
+           
+          
+           
+    }
+    .header_nav_list{
+        display: flex;
+        flex-direction: column;
+    }
+    .header_content_title {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .header_nav_buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    .header_content_subtitle{
+        margin: 25px 0 ;
+        font-size: 17px;
+    }
+    .header_content_buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    .strategy_cards{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .clients_item {
+        display: flex;
+        flex-direction: column;
+    }
+    .faq_items{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 50px 0 0;
+    }
+    .pricing_item{
+        padding: 35px 25px;
+       
+    }
+    .branches_top{
+        margin: 10px 0 15px;
+    }
+    .clients_item {
+        max-width: 300px;
+    }
+    .clients_item_txt{
+        padding-bottom: 15px;
+        text-align: center;
+    }
+    .clients {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+   
+    
+    .clients_item_about{
+        display: flex;
+        align-items: center;
+    }
+    .pricing_items{
+        padding: 10px 40px;
+    }
+    .section_title{
+        font-size: 30px;
+        line-height: 40px;
+        max-width: 330px;
+    }
+    .section_text {
+        max-width: 330px;
+    }
+    .branches_img {
+        width: 330px;
+        height: 140px;
+    }
+    .branches_card {
+        display: flex;
+        flex-direction: column;
+        max-width: 576px;
+        margin: 0 -15px;
+       bottom: -83%;
+    }
+    .footer {
+    margin-top: 840px;}
+    
+    .blanches_card-img{
+        height: 435px;
+        width: 100%;
+    }
+    .footer_top_title{
+        text-align: center;
+    }
+    .footer_lists {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer_bottom .container{
+        padding: 10px 15px
+    }
+    .footer_bottom_txt{
+        text-align: center;
+    }
+    
+}
